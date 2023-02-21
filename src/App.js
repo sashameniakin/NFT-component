@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="w-full h-screen flex justify-center items-center">
+      <div className="flex flex-col w-80 align-center bg-cardBG p-6 rounded-2xl">
+        <img
+          className="rounded-lg"
+          src="./images/image-equilibrium.jpg"
+          alt="main"
+        />
+        <h1 className="font-bold text-base text-white">Equilibrium #3429</h1>
+        <p>Our equilibrium collection promotes balance and claim</p>
+      </div>
+    </main>
   );
 }
 
